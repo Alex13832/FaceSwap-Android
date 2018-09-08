@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">도움말</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">결과</string>
+    <string name="cd_sepia_button">빈티지 필터</string>
+    <string name="cd_tuning_button">튜닝</string>
+    <string name="cd_accept_changes_button">수락</string>
+    <string name="cd_clear_changes_button">다시 설정</string>
+    <string name="cd_flip_button">수평으로 뒤집기</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">편집</string>
+    <string name="button_save_text">저장</string>
+    <string name="button_share_app_text">FP+에 친구 초대</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">얼굴 맞바꿈</string>
+    <string name="photo_saved">저장됨</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">권한 누락</string>
+    <string name="err_insufficient_faces">적어도 두 얼굴이 필요합니다.</string>
+    <string name="err_no_image_present">사진 누락</string>
+    <string name="err_could_not_swap_x">사진을 맞바꿀 수 없습니다 :</string>
+    <string name="err_could_not_swap">화질 확인</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">회전</string>
+    <string name="icon_brightness_icon_text">명도</string>
+    <string name="icon_contrast_icon_text">대조</string>
+    <string name="icon_gamma_icon_text">감마</string>
+    <string name="icon_saturation_icon_text">색채</string>
+    <string name="button_share_image_text">공유 사용</string>
+    <string name="button_share_image_help_text">공유</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">카메라</string>
+    <string name="photo_library_info">사진 라이브러리</string>
+    <string name="face_tab">사진에 탭</string>
+    <string name="swap_button_info">얼굴 교환 버튼. 양쪽 탭에 사진이 있을 때 나타납니다.</string>
+    <string name="switch_button_info">사진 1과 2를 맞바꿈</string>
+    <string name="swap_multi_info">사진 내에서 맞바꿈</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">링크를 다음으로 다운로드</string>
+
+</resources>

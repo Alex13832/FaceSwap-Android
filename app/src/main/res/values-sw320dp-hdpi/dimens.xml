@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="help_swap_text_size">16sp</dimen>
+    <dimen name="help_text_width">250dp</dimen>
+    <dimen name="help_swap_icon_size">40dp</dimen>
+    <dimen name="help_top_text_size">34sp</dimen>
+    <dimen name="help_swap_margin_default">8dp</dimen>
+    <dimen name="help_swap_margin_start_default">8dp</dimen>
+
+    <!-- help result unique -->
+    <dimen name="help_result_icon_size">22dp</dimen>
+    <dimen name="help_result_text_size">18sp</dimen>
+    <dimen name="help_result_margin_default">8dp</dimen>
+    <dimen name="help_result_margin_start_default">8dp</dimen>
+    <dimen name="help_result_text_margin">12dp</dimen>
+</resources>

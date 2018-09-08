@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">Yardım</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">Sonuç</string>
+    <string name="cd_sepia_button">Nostalji filtresi</string>
+    <string name="cd_tuning_button">Ayarla</string>
+    <string name="cd_accept_changes_button">Kabul Et</string>
+    <string name="cd_clear_changes_button">Sıfırla</string>
+    <string name="cd_flip_button">Yatay eksende döndür</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">Düzenle</string>
+    <string name="button_save_text">Kaydet</string>
+    <string name="button_share_app_text">Arkadaşlarınızı FP+ için davet edin</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">Değişen yüzler</string>
+    <string name="photo_saved">Kaydedildi</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">İzin yok</string>
+    <string name="err_insufficient_faces">En az iki yüze ihtiyaç var.</string>
+    <string name="err_no_image_present">Fotoğraf eksik</string>
+    <string name="err_could_not_swap_x">Fotoğraf takas edilemedi:</string>
+    <string name="err_could_not_swap">Kaliteyi kontrol et</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">Döndür</string>
+    <string name="icon_brightness_icon_text">Parlaklık</string>
+    <string name="icon_contrast_icon_text">Zıtlık</string>
+    <string name="icon_gamma_icon_text">Gama</string>
+    <string name="icon_saturation_icon_text">Renklilik</string>
+    <string name="button_share_image_text">Kullanarak paylaş</string>
+    <string name="button_share_image_help_text">Paylaşılıyor</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">Kamera</string>
+    <string name="photo_library_info">Fotoğraf kütüphanesi</string>
+    <string name="face_tab">Fotoğraf sekmesi</string>
+    <string name="swap_button_info">Yüzleri değiştirme düğmesi. Her iki sekme de fotoğrafları içerdiğinde görünür.</string>
+    <string name="switch_button_info">Fotoğraf 1 ve 2\'yi değiştir.</string>
+    <string name="swap_multi_info">Bir fotoğraf içinde değişim yap.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">Bağlantıyı indir</string>
+
+</resources>

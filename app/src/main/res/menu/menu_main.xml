@@ -1,0 +1,43 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_switch_faces"
+        android:icon="@drawable/ic_compare_arrows_24dp"
+        android:title="@string/switch_button_info"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+    <item
+        android:id="@+id/action_swap_multiple_faces"
+        android:icon="@drawable/ic_people_24dp"
+        android:title="@string/swap_multi_info"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+    <item
+        android:id="@+id/action_tune_image"
+        android:icon="@drawable/ic_edit_white_24dp"
+        android:title="@string/button_edit_text"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+    <item
+        android:id="@+id/share_app"
+        android:icon="@drawable/ic_send_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/button_share_app_text"
+        />
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_help_outline_24dp"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+</menu>

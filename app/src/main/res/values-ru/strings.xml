@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">Помощь</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">Результат</string>
+    <string name="cd_sepia_button">Винтажный фильтр</string>
+    <string name="cd_tuning_button">Настройка</string>
+    <string name="cd_accept_changes_button">Принять</string>
+    <string name="cd_clear_changes_button">Сброс</string>
+    <string name="cd_flip_button">Отразить по горизонтали</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">Изменить</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_share_app_text">Пригласите своих друзей в FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">Замена лиц</string>
+    <string name="photo_saved">Сохранено</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">Отсутствующее разрешение</string>
+    <string name="err_insufficient_faces">Требуется как минимум два лица.</string>
+    <string name="err_no_image_present">Фото отсутствует</string>
+    <string name="err_could_not_swap_x">Не удалось поменять местами фото:</string>
+    <string name="err_could_not_swap">Проверка качества</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">Поворот</string>
+    <string name="icon_brightness_icon_text">Яркость</string>
+    <string name="icon_contrast_icon_text">Контраст</string>
+    <string name="icon_gamma_icon_text">Гамма</string>
+    <string name="icon_saturation_icon_text">Насыщенность цвета</string>
+    <string name="button_share_image_text">Поделиться с помощью</string>
+    <string name="button_share_image_help_text">Поделиться</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">Камера</string>
+    <string name="photo_library_info">Библиотека фото</string>
+    <string name="face_tab">Вкладка для фото</string>
+    <string name="swap_button_info">Кнопка замены лица. Появляется, когда на обеих вкладках есть фото.</string>
+    <string name="switch_button_info">Переключить фото 1 и 2.</string>
+    <string name="swap_multi_info">Замена местами на фото.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">Ссылка на скачивание</string>
+
+</resources>

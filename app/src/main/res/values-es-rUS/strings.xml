@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">Ayuda</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">Resultado</string>
+    <string name="cd_sepia_button">Filtro vintage</string>
+    <string name="cd_tuning_button">Afinar</string>
+    <string name="cd_accept_changes_button">Aceptar</string>
+    <string name="cd_clear_changes_button">Restablecer</string>
+    <string name="cd_flip_button">Voltear horizontalmente</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">Editar</string>
+    <string name="button_save_text">Guardar</string>
+    <string name="button_share_app_text">Invita a tus amigos a FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">Intercambiando rostros</string>
+    <string name="photo_saved">Guardado</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">Permiso faltante</string>
+    <string name="err_insufficient_faces">Se necesitan al menos dos rostros.</string>
+    <string name="err_no_image_present">Foto faltante</string>
+    <string name="err_could_not_swap_x">No se pudo intercambiar la foto:</string>
+    <string name="err_could_not_swap">Comprueba la calidad</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">Rotar</string>
+    <string name="icon_brightness_icon_text">Brillo</string>
+    <string name="icon_contrast_icon_text">Contraste</string>
+    <string name="icon_gamma_icon_text">Gamma</string>
+    <string name="icon_saturation_icon_text">Colorido</string>
+    <string name="button_share_image_text">Compartir usando</string>
+    <string name="button_share_image_help_text">Compartiendo</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">Cámara</string>
+    <string name="photo_library_info">Biblioteca de fotos</string>
+    <string name="face_tab">Pestaña para foto</string>
+    <string name="swap_button_info">Botón intercambiar rostros. Parece que las dos pestañas contienen fotos.</string>
+    <string name="switch_button_info">Cambiar la foto 1 y 2.</string>
+    <string name="swap_multi_info">Intercambiar en la misma foto.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">Descargar enlace a</string>
+
+</resources>

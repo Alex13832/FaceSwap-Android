@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">帮助</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">结果</string>
+    <string name="cd_sepia_button">复古滤镜</string>
+    <string name="cd_tuning_button">调整</string>
+    <string name="cd_accept_changes_button">接受</string>
+    <string name="cd_clear_changes_button">重置</string>
+    <string name="cd_flip_button">水平翻转</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">编辑</string>
+    <string name="button_save_text">保存</string>
+    <string name="button_share_app_text">邀请您的朋友FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">交换面孔</string>
+    <string name="photo_saved">已保存</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">缺少权限</string>
+    <string name="err_insufficient_faces">至少需要两个面孔。</string>
+    <string name="err_no_image_present">缺少照片</string>
+    <string name="err_could_not_swap_x">无法交换照片：</string>
+    <string name="err_could_not_swap">检查质量</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">旋转</string>
+    <string name="icon_brightness_icon_text">亮度</string>
+    <string name="icon_contrast_icon_text">对比度</string>
+    <string name="icon_gamma_icon_text">伽玛</string>
+    <string name="icon_saturation_icon_text">色彩度</string>
+    <string name="button_share_image_text">分享途径</string>
+    <string name="button_share_image_help_text">正在分享</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">相机</string>
+    <string name="photo_library_info">照片库</string>
+    <string name="face_tab">照片选项卡</string>
+    <string name="swap_button_info">交换面孔按钮。两个选项卡都包含照片时会出现。</string>
+    <string name="switch_button_info">切换照片1和2。</string>
+    <string name="swap_multi_info">照片内交换。</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">下载链接至</string>
+
+</resources>

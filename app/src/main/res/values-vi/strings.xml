@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">Trợ giúp</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">Kết quả</string>
+    <string name="cd_sepia_button">Bộ lọc cổ điển</string>
+    <string name="cd_tuning_button">Điều chỉnh</string>
+    <string name="cd_accept_changes_button">Chấp nhận</string>
+    <string name="cd_clear_changes_button">Đặt lại</string>
+    <string name="cd_flip_button">Lật ngang</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">Sửa</string>
+    <string name="button_save_text">Lưu</string>
+    <string name="button_share_app_text">Mời bạn bè của bạn vào FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">Đang trao đổi khuôn mặt</string>
+    <string name="photo_saved">Đã lưu</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">Thiếu cấp quyền</string>
+    <string name="err_insufficient_faces">Cần ít nhất hai khuôn mặt.</string>
+    <string name="err_no_image_present">Thiếu hình</string>
+    <string name="err_could_not_swap_x">Không thể trao đổi hình:</string>
+    <string name="err_could_not_swap">Kiểm tra chất lượng</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">Xoay</string>
+    <string name="icon_brightness_icon_text">Độ sáng</string>
+    <string name="icon_contrast_icon_text">Độ tương phản</string>
+    <string name="icon_gamma_icon_text">Gama</string>
+    <string name="icon_saturation_icon_text">Đầy màu sắc</string>
+    <string name="button_share_image_text">Chia sẻ bằng cách sử dụng</string>
+    <string name="button_share_image_help_text">Đang chia sẻ</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">Camera</string>
+    <string name="photo_library_info">Thư viện ảnh</string>
+    <string name="face_tab">Thẻ chứa hình</string>
+    <string name="swap_button_info">Nút trao đổi khuôn mặt. Xuất hiện khi cả hai thẻ đều chứa hình.</string>
+    <string name="switch_button_info">Chuyển đổi hình 1 và 2.</string>
+    <string name="swap_multi_info">Trao đổi trong một hình.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">Tải về liên kết đến</string>
+
+</resources>

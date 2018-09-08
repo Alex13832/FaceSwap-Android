@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:id="@+id/main_content"
+                                                 android:layout_width="fill_parent"
+                                                 android:layout_height="fill_parent"
+                                                 android:background="@color/veryDarkGray"
+                                                 android:fitsSystemWindows="true"
+                                                 tools:context="com.alex.faceswap.HelpSwapActivity"
+                                                 tools:ignore="Overdraw">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constr_content_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/action_settings"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/help_top_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="23dp"
+            android:clickable="false"
+            android:contentDescription="@string/camera_info"
+            android:longClickable="false"
+            android:src="@drawable/ic_camera_48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@string/swap_button_info"
+            android:src="@drawable/ic_swap_horiz_48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButton2"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/help_swap_margin_default"
+            android:contentDescription="@string/photo_library_info"
+            android:src="@drawable/ic_photo_library_48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="30dp"
+            android:text="@string/camera_info"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/floatingActionButton"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="19dp"
+            android:text="@string/photo_library_info"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/floatingActionButton2"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/help_swap_icon_size"
+            android:layout_height="@dimen/help_swap_icon_size"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/help_swap_margin_default"
+            android:contentDescription="@string/face_tab"
+            android:src="@drawable/ic_face_48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="23dp"
+            android:text="@string/face_tab"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="11dp"
+            android:text="@string/swap_button_info"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/floatingActionButton3"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButton2"/>
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="@dimen/help_swap_icon_size"
+            android:layout_height="@dimen/help_swap_icon_size"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/switch_button_info"
+            android:src="@drawable/ic_compare_arrows_24dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="20dp"
+            android:text="@string/switch_button_info"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/imageButton"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="@dimen/help_swap_icon_size"
+            android:layout_height="@dimen/help_swap_icon_size"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/help_swap_margin_default"
+            android:contentDescription="@string/swap_multi_info"
+            android:src="@drawable/ic_people_24dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="@dimen/help_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/help_swap_margin_start_default"
+            android:layout_marginTop="18dp"
+            android:text="@string/swap_multi_info"
+            android:textSize="@dimen/help_swap_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@color/actionbarOpacity"
+            app:adSize="BANNER"
+            app:adUnitId="@string/admob_test_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.widget.CoordinatorLayout>

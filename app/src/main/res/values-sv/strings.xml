@@ -1,0 +1,48 @@
+<resources>
+    <string name="action_settings">Hjälp</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">Resultat</string>
+    <string name="cd_sepia_button">Vintage filter</string>
+    <string name="cd_tuning_button">Fin-justera</string>
+    <string name="cd_accept_changes_button">Acceptera</string>
+    <string name="cd_clear_changes_button">Återställ</string>
+    <string name="cd_flip_button">Spegla bild</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">Ändra</string>
+    <string name="button_save_text">Spara bild</string>
+    <string name="button_share_app_text">Tipsa vänner om FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">Swappar ansikten</string>
+    <string name="photo_saved">Bild sparad</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">Saknar behörighet</string>
+    <string name="err_insufficient_faces">Minst två ansikten måste finnas i bilden.</string>
+    <string name="err_no_image_present">Foto saknas</string>
+    <string name="err_could_not_swap_x">Kunde inte swappa ansikte i bild:</string>
+    <string name="err_could_not_swap">Undersök bildkvalité.</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">Rotera</string>
+    <string name="icon_brightness_icon_text">Ljusstyrka</string>
+    <string name="icon_contrast_icon_text">Kontrast</string>
+    <string name="icon_gamma_icon_text">Gamma</string>
+    <string name="icon_saturation_icon_text">Färgmättnad</string>
+    <string name="button_share_image_text">Dela bild med</string>
+    <string name="button_share_image_help_text">Dela bild</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">Kamera.</string>
+    <string name="photo_library_info">Fotoalbum.</string>
+    <string name="face_tab">Flik för bild.</string>
+    <string name="swap_button_info">Knapp för swap. Knappen syns när två bilder har valts.</string>
+    <string name="switch_button_info">Byt plats på bild 1 och 2.</string>
+    <string name="swap_multi_info">Byt ansikte i samma bild.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">Länk för hämtning av</string>
+
+</resources>

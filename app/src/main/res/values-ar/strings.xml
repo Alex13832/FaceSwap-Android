@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="action_settings">مساعدة</string>
+
+    <!-- Content descriptions for image views -->
+    <string name="cd_result_image">نتيجة</string>
+    <string name="cd_sepia_button">مرشح قديم</string>
+    <string name="cd_tuning_button">تعديل</string>
+    <string name="cd_accept_changes_button">موافقة</string>
+    <string name="cd_clear_changes_button">إعادة تعيين</string>
+    <string name="cd_flip_button">قلب أفقي</string>
+
+    <!-- Strings for main menu items -->
+    <string name="button_edit_text">تحرير</string>
+    <string name="button_save_text">حفظ</string>
+    <string name="button_share_app_text">ادع أصدقاءك إلى FP+</string>
+
+    <!-- General information strings -->
+    <string name="info_swapping">مبادلة الوجوه</string>
+    <string name="photo_saved">تم الحفظ</string>
+
+    <!-- Strings for error information -->
+    <string name="err_permission">إذن مفقود</string>
+    <string name="err_insufficient_faces">يتطلب وجهين على الأقل</string>
+    <string name="err_no_image_present">صورة مفقودة</string>
+    <string name="err_could_not_swap_x">تعذر مبادلة الصورة:</string>
+    <string name="err_could_not_swap">تفقد الجودة</string>
+
+    <!-- Result activity -->
+    <string name="rotate_button_image_text">تدوير</string>
+    <string name="icon_brightness_icon_text">سطوع</string>
+    <string name="icon_contrast_icon_text">تباين</string>
+    <string name="icon_gamma_icon_text">جاما</string>
+    <string name="icon_saturation_icon_text">تلون</string>
+    <string name="button_share_image_text">مشاركة باستخدام</string>
+    <string name="button_share_image_help_text">مشاركة</string>
+
+    <!-- Help toast -->
+    <string name="camera_info">كاميرا</string>
+    <string name="photo_library_info">مكتبة الصور</string>
+    <string name="face_tab">علامة تبويب للصور</string>
+    <string name="swap_button_info">مبادلة وجه الصور. يظهر عندما يحتوي كلا علامتي التبويب على صور.</string>
+    <string name="switch_button_info">تبديل الصورتين 1 و2.</string>
+    <string name="swap_multi_info">تبديل داخل الصورة.</string>
+
+    <!-- Invitations -->
+    <string name="invitation_message">تحميل الرابط إلى</string>
+
+</resources>
