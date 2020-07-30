@@ -24,3 +24,9 @@ The algorithms are in OpenCV C++, which complicates build processes.
 
 #### Swap example 2
 ![Screenshot](./images/fs2.png)
+
+## Donations
+
+Paypal
+
+![Paypal](images/QR-kod.png)
