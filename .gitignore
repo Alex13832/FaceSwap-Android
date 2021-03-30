@@ -1,0 +1,5 @@
+.gradle
+.idea
+build
+import-summary.txt
+/openCVLibrary3412/build/

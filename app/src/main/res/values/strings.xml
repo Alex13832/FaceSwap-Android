@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FaceSwap</string>
+    <string name="face_1">Face 1</string>
+    <string name="face_2">Face 2</string>
+    <string name="image_for_faces">Image for faces</string>
+    <string name="action_button">Action button.</string>
+</resources>
