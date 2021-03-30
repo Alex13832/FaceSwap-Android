@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="portrait_only">false</bool>
-    <bool name="show_menu_landscape">true</bool>
-</resources>
